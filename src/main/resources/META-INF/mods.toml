@@ -20,7 +20,7 @@ license="MIT"
 # The modid of the mod
 modId="lockoutmod" #mandatory
 # The version number of the mod
-version="${mod_version}" #mandatory
+version="1.0.0" #mandatory
 # A display name for the mod
 displayName="Lockout 1.21.4 Mod" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
