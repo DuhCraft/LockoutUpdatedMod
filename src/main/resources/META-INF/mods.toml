@@ -43,7 +43,25 @@ authors="DuhCraft, Testdummy101" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-A extention of SmallAnt's original Lockout mod to work on Minecraft version 1.21.4 by DuhCraft and Testdummy101
+    A extention of SmallAnt's original Lockout mod to work on Minecraft version 1.21.4 by DuhCraft and Testdummy101
+
+    This mod introduces Lockout Bingo gamemode inside of minecraft.
+    /Lockout player1 player2 (1v1)
+    /Lockout @a[team=1] @a[team=2] (how to define teams https://www.digminecraft.com/game_commands/team_command.php)
+    If a player disconnects and reconnects from the server, they will automatically be re-added back into the
+    Lockout game. If the server stops or crashes in order to resume the Lockout game:
+    /LockoutResume player1 player2 (1v1)
+    /LockoutResume @a[team=1] @a[team=2]
+
+    To change how much time you have to read the board at the start:
+    /LockoutSetStartTime timeInSeconds
+
+    To change position of ingame lockout gui:
+    /LockoutLocation pos   (pos = 1 (top left), pos = 2 (top right), pos = 3 (bottom left), pos = 4 (bottom right)
+
+    To manually give/remove a goal:
+    /GiveGoal goalIndex (starts from 1, top left corner, ends at 25, bottom right corner)
+    /RemoveGoal goalIndex
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.lockoutmod]] #optional
