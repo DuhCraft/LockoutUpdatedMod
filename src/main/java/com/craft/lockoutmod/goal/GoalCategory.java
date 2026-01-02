@@ -1,4 +1,9 @@
 package com.craft.lockoutmod.goal;
 
-public class GoalCategory {
+public enum GoalCategory {
+    ITEMS,
+    BLOCKS,
+    MOBS,
+    ADVANCEMENTS,
+    MISC
 }
