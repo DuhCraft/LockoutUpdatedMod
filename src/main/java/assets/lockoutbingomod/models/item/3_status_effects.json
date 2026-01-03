@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lockoutbingomod:items/3_status_effects"
+  }
+}
